@@ -155,11 +155,13 @@ td,
 td img {
   vertical-align: top;
 }
-pre,
-pre code {
-  background-color: #f5f7fa;
-  color: #42464c;
-}
+/*
+ *pre,
+ *pre code {
+ *  background-color: #f5f7fa;
+ *  color: #42464c;
+ *}
+ */
 *,
 :after,
 :before {
@@ -324,10 +326,10 @@ span {
 strong {
   font-weight: 700;
 }
-pre {
+/*pre {
   white-space: pre;
   word-wrap: normal;
-}
+}*/
 .button,
 .nav-left,
 .table td.is-icon,
@@ -336,10 +338,12 @@ pre {
 .tag {
   white-space: nowrap;
 }
+
 pre code {
   overflow-x: auto;
   padding: 16px 20px;
 }
+
 .box,
 .button {
   background-color: #fff;
@@ -2343,7 +2347,7 @@ a.box:active {
 }
 .highlight pre {
   overflow: auto;
-}
+}*/
 .button.is-loading:after,
 .control.is-loading:after,
 .loader {
@@ -3626,14 +3630,14 @@ a.box:active {
     width: 100%;
   }
 }
-.highlight {
+/*.highlight {
   background-color: #fdf6e3;
   color: #586e75;
-}
-.highlight .c {
+}*/
+/*.highlight .c {
   color: #93a1a1;
-}
-.highlight .err,
+}*/
+/*.highlight .err,
 .highlight .g {
   color: #586e75;
 }
@@ -3803,7 +3807,7 @@ a.box:active {
 .level-item .subtitle,
 .level-item .title {
   margin-bottom: 0;
-}
+}*/
 .level-left .level-item.is-flexible,
 .level-right .level-item.is-flexible {
   -webkit-box-flex: 1;
@@ -5682,15 +5686,17 @@ code {
   background-color: #f8f8f8;
   color: #42464c;
 }
-.content pre code {
-  font-size: 90%;
-  padding: 1em;
-  line-height: 1.5;
-}
-.content li pre,
-.content li table {
-  margin-bottom: 1.5em;
-}
+/*
+ *.content pre code {
+ *  font-size: 90%;
+ *  padding: 1em;
+ *  line-height: 1.5;
+ *}
+ *.content li pre,
+ *.content li table {
+ *  margin-bottom: 1.5em;
+ *}
+ */
 img[src$="#c"] {
   display: block;
   margin: 0.7rem auto;
