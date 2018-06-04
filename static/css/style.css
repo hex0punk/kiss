@@ -5605,6 +5605,11 @@ article + article {
 .nav .level-item {
   margin-left: 10px;
 }
+.nav .nav-link{
+  position: absolute;
+  top: 45px;
+}
+
 .subtitle {
   color: #69707a;
 }
