@@ -16,11 +16,8 @@
       <div class="level-right is-marginless">
         <div class="level-item">
           {{ if .Paginator.HasNext }}
-          <a class="button" href="{{ .Paginator.Next.URL }}">
-            Older
-            <span class="icon is-small is-marginless">
-              {{ partial "svg/icons" "next" }}
-            </span>
+          <a href="{{ .Paginator.Next.URL }}">
+            Older >
           </a>
           {{ end }}
         </div>
