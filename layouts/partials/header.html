@@ -8,9 +8,6 @@
 {{ else }}
 <title>{{ .Site.Params.Info.homeTitle }}</title>
 {{ end }}
-{{ if .Site.Params.Info.enableSocial }}
-{{- partial "social/opengraph" . -}}
-{{ end }}
 <link rel="stylesheet" href="{{ "css/style.css" | relURL }}"/>
 <link rel="stylesheet" href="{{ "css/syntax.css" | relURL }}"/>
 {{- range .Site.Params.Assets.customCSS -}}
