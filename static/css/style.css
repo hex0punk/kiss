@@ -3489,6 +3489,14 @@ a.box:active {
 .tile {
   -webkit-box-align: stretch;
 }
+
+.nav-left ul{
+  display: inline-flex;
+}
+.nav-left ul li:nth-child(n+2){
+  margin-left: 20px;
+}
+
 @media screen and (min-width: 769px) {
   .columns:not(.is-desktop) {
     display: -webkit-box;
@@ -5607,14 +5615,15 @@ article + article {
 }
 .nav .nav-link{
   position: absolute;
-  top: 45px;
+  top: 69px;
 }
 
 .subtitle {
   color: #69707a;
 }
 .title {
-  font-size: 24px;
+  font-size: 14px;
+  font-weight: bold;
 }
 .title a {
   color: #222324;
@@ -5722,4 +5731,11 @@ img[src$="#r"] {
 }
 .related ul {
   font-size: 17px;
+}
+.logo{
+  text-align: left;
+  font-size: 16px;
+}
+.logo a{
+  text-decoration: none;
 }

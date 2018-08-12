@@ -2,10 +2,19 @@
   <div class="container">
     <nav class="nav">
       <div class="nav-left">
-        <a class="nav-item" href="{{ .Site.BaseURL }}"><h1 class="title is-4">{{ .Site.Title }}</h1></a>
+        <ul>
+          <li class="logo">
+              <a href="{{ .Site.BaseURL }}">|_|0|_|<br>|_|_|0|<br>|0|0|0|<br>
+                codedharma
+          </li>
+      
         {{- if .Site.Params.social.github -}}
-        <a class="nav-link" href="https://github.com/{{ .Site.Params.social.github }}" target="_blank" rel="noopener">projects</a>
+          <li>
+
+            <a class="nav-link" href="https://github.com/{{ .Site.Params.social.github }}" target="_blank" rel="noopener">projects</a>
+          </li>
         {{- end -}}
+        </ul>
       </div>
     </nav>
     {{ if (isset .Site.Params "sections" ) }}
