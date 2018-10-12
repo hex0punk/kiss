@@ -366,7 +366,7 @@ table th {
 .subtitle:not(:last-child),
 .tabs:not(:last-child),
 .title:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 @media screen and (min-width: 980px) {
   .container {
@@ -5615,7 +5615,9 @@ article + article {
 }
 .nav .nav-link{
   position: absolute;
-  top: 67px;
+  top: 66px;
+  font-size: 16px;
+  text-decoration: none;
 }
 
 .subtitle {
@@ -5633,7 +5635,7 @@ article + article {
 }
 code {
   color: inherit;
-  font-size: 90%;
+  font-size: 100%;
 }
 .content h1::before,
 .content h2::before,
@@ -5695,10 +5697,10 @@ code {
   font-size: 90%;
   padding: 2px 4px;
   margin: 0 2px;
-  border: 1px solid #ddd;
   border-radius: 4px;
-  background-color: #f8f8f8;
-  color: #42464c;
+  background-color: #504945;
+  color: #fabd2f;
+  font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
 }
 /*
  *.content pre code {
